@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <script>
+            let sum = (name,...args) => {
+                document.write(`Hello ${name} :`);
+                
+                let sum = 0;
+                for(let i in args){
+                    sum += args[i];
+                }
+                document.write(sum + "<br>");
+            }
+            sum("Saad Hasxan",20,30,70);
+            sum("Farzan Hasxan",50,60,90);
+        </script>
+    </head>
+</html>

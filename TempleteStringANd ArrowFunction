@@ -1,0 +1,8 @@
+<html>
+    <head>
+        <script>
+            var BrosName = (MyName, BroName) => `My Name is ${MyName} and my brother name is ${BroName}`
+            document.write(BrosName("Saad","Farzan"));
+        </script>
+    </head>
+</html>
