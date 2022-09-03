@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <script>
+           let user = ["My Name is Saad Haxan and i am ", 20, "years old. I live in Lahore" + "<br>", ["{Virtual University ", "2nd Samester"], "BSCS", "Five courses}"]; //["Virtual University ", "2nd Samester"] is Nested Array
+
+           let [name, age = 25, City, [University, Samester], ...args] = user; // age = 25 is defalt Value
+
+           document.write(name);
+           document.write(age);
+           document.write(City);
+           document.write(University);
+           document.write(args);
+        </script>
+    </head>
+</html>
